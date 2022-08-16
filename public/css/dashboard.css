@@ -1,0 +1,215 @@
+body {
+    position: relative;
+    background-color: #fafafa;
+    font-family: "Inter", sans-serif;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+    color: #ffffff;
+    background: rgb(65, 219, 123);
+}
+
+a {
+    color: #212529;
+}
+
+a:hover {
+    color: rgb(65, 219, 123);
+}
+
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 0 7px 7px 0 rgba(0, 0, 0, 0.03);
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-brand {
+    letter-spacing: 2px;
+}
+
+.btn {
+    transition: 0.3s;
+}
+
+.btn-green {
+    background: rgb(65, 219, 123);
+    color: #ffffff;
+}
+
+.btn-out-gray {
+    background-color: #ffffff;
+    border: 1px solid #d8d8d8;
+}
+
+.btn-out-gray:hover {
+    background-color: #d8d8d8;
+    color: #ffffff;
+    outline: none;
+}
+
+.btn-green:hover {
+    background: #ffffff;
+    border: 1px solid rgb(65, 219, 123);
+    color: rgb(65, 219, 123);
+}
+
+/* Contact Page */
+
+.cards {
+    margin-bottom: 5rem;
+    display: grid;
+    /* grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); */
+    gap: 2.5rem 2rem;
+}
+
+.card-kandidat {
+    position: relative;
+    transition: transform 0.3s;
+}
+
+.card-kandidat:hover {
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.03);
+    transform: scale(1.03);
+}
+
+.card-img-top {
+    height: 300px;
+    object-fit: cover;
+}
+
+.modal-img-kandidat {
+    height: 300px;
+    object-fit: cover;
+}
+
+.table-kandidat tr td ol {
+    margin: 0;
+    padding-left: 14px;
+}
+
+.footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: #ffffff;
+    box-shadow: 0 -7px 7px 0 rgba(0, 0, 0, 0.03);
+    padding: 2rem 0 3rem 0;
+    opacity: 0.5;
+}
+
+.footer-right {
+    flex-wrap: wrap;
+}
+
+/* Contact Page */
+
+.contact-maps {
+    padding: 10px;
+}
+
+.contact-maps iframe {
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.05);
+}
+
+.contact-list h4 {
+    margin: 16px 0;
+}
+
+.contact-content p,
+span {
+    font-size: 16px;
+    color: #212529;
+    opacity: 0.5;
+}
+
+.contact-list p {
+    display: inline;
+}
+
+.contact-list a {
+    font-size: 16px;
+    margin-right: 16px;
+    text-decoration: none;
+    color: #21252969;
+}
+
+.contact-list p a {
+    color: #212529;
+}
+
+.contact-list a:hover {
+    color: rgb(67, 95, 239);
+    text-decoration: underline;
+    opacity: 1;
+}
+
+.contact-list a:hover span {
+    color: rgb(67, 95, 239);
+    opacity: 1;
+}
+
+.contact-desc {
+    padding-bottom: 15rem;
+}
+
+/* Profile Page */
+
+.profile-tab h4 {
+    margin-bottom: 1rem;
+}
+
+.profile-tab-account {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+    margin-bottom: 1rem;
+}
+
+.profile-tab-account p:nth-child(1) {
+    opacity: 0.6;
+}
+
+.card-profile-password input {
+    background-color: rgba(176, 176, 176, 0.03);
+}
+
+@media screen and (max-width: 575.89px) {
+    .container {
+        padding: 0 1.5rem;
+    }
+
+    .navbar-brand {
+        display: none;
+    }
+
+    .navbar-nav {
+        margin-top: 15px;
+    }
+
+    .cards {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+
+    .card-number {
+        left: -5px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card-kandidat {
+        width: 300px;
+        min-width: 300px;
+        max-width: 400px;
+    }
+}
