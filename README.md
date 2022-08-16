@@ -11,12 +11,13 @@ PILKASIS adalah sebuah aplikasi pemilihan ketua OSIS secara online.
 
 - Login
 - Register sebagai admin
-- Menambah data user dengan data excel
+- Menambah user dengan data excel
 - Diagram voting  
 
 ## Credits
 
 - [Laravel](https://laravel.com)
+- [Stisla](https://getstisla.com)
 - [Livewire](https://laravel-livewire.com)
 - [Sweet Alert](https://sweetalert.js.org)
 - [High Charts](https://www.highcharts.com)
