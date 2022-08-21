@@ -5,7 +5,7 @@
 PILKASIS adalah sebuah aplikasi pemilihan ketua OSIS secara online.
 
 ## Screenshot
-[Pilkasis Dashboard](https://github.com/valentinocfs/pilkasis/blob/main/public/img/dashboard.png?raw=true)
+![Pilkasis Dashboard](https://github.com/valentinocfs/pilkasis/blob/main/public/img/dashboard.png?raw=true)
 
 ## Feature
 
